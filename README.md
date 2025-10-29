@@ -11,9 +11,12 @@
 3. Then using the steps from the provided node express video I intalled node express and setup an index.js:
    https://www.youtube.com/watch?v=AL7_oPEigpM
 4. In the index.js I pasted in the code provided and after creating new ingress rules in the security list in the instance settings enabling both port 3000 and 80
-5. After all of those steps I was able to open the instance on my browser with the url="http://129.153.226.27:3000/echo" using the following commands in powershell:
-    1. cd key_file
-    2. ssh -i .\ssh-key-2025-10-06.key opc@129.153.226.27
-    3. cd my_node
-    4. node index.js
-6. 
+5. After all of those steps I was able to open the instance methods on my browser with the url="http://129.153.226.27:3000/echo" using the following commands in powershell:
+    1) cd key_file
+    2) ssh -i .\ssh-key-2025-10-06.key opc@129.153.226.27
+    3) cd my_node
+    4) node index.js
+    5) http://129.153.226.27:3000/echo (for request methods)
+    6) http://129.153.226.27:3000 (for html)
+6. Then I used the command nano index.html to access the html portion of the node and pasted in the given code.
+7. 
