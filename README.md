@@ -15,8 +15,9 @@
     1) cd key_file
     2) ssh -i .\ssh-key-2025-10-06.key opc@129.153.226.27
     3) cd my_node
-    4) node index.js
+    4) node index.js (Turns on the website)
     5) http://129.153.226.27:3000/echo (for request methods)
     6) http://129.153.226.27:3000 (for html)
 6. Then I used the command nano index.html to access the html portion of the node and pasted in the given code.
-7. 
+7. Because I already had a git repo under my user I decided to just use that and I made an index.html under main with the given code that redirects you to the main website.
+8. 
